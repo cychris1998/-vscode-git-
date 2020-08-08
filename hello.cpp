@@ -11,7 +11,6 @@ int main()
 {
     Box box1;
     Box box2;
-    Box box3;
 
     box1.height = 10;
     box1.breadth = 2;
