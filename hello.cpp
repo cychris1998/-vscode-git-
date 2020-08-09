@@ -22,6 +22,7 @@ int main()
 
     cout << box1.getVolume() << endl;
     cout << box2.getVolume() << endl;
+    cout << box1.compare(box2) << endl;
 }
 
 double Box::getVolume(){

@@ -5,4 +5,7 @@ class Box{
         double height;
 
         double getVolume();
+        bool compare(Box box){
+            return getVolume() > box.getVolume;
+        }
 };
