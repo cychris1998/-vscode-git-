@@ -5,4 +5,8 @@ class Box{
         double height;
 
         double getVolume();
+
+        double getvolume(){
+            return length * breadth * height;
+        }
 };
