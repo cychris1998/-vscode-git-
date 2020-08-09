@@ -8,4 +8,8 @@ class Box{
         bool compare(Box box){
             return getVolume() > box.getVolume;
         }
+
+        double getvolume(){
+            return length * breadth * height;
+        }
 };
